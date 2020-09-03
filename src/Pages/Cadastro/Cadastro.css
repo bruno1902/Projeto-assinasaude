@@ -1,0 +1,118 @@
+.cadastro{
+    background-color: var(--bgc-main);
+    height: 100%;
+}
+
+div >.wrapper-cadastro{
+    background-color: #ffffff;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    font-family: var(--font-family);
+    height: auto;
+}
+
+.anamnese{
+    background-color: var(--color-primary);
+    margin: 3% 4% 0%;
+    padding: 3% 4%;
+    color: var(--color-secundary);
+    font-size: var(--letter-big);
+    font-family: var(--font-family);
+    border-radius: 8px;
+}
+
+.form-1{
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+.form-2{
+    margin-top: 6%;
+    font-weight: bold;
+}
+
+.option-1{
+    background-color:var(--bgc-form);
+    margin-top: 2%;
+    height: 50px;
+    border: 1px solid var(--bgc-form);
+    border-radius: 3px;
+    width: 100%;
+    color: var(--bgc-form-text) ;
+    font-size: var(--letter-normal);
+}
+
+.selected-text{
+    margin-top: 5%;
+    font-family: var(--font-family);
+    font-size: var(--letter-big);
+}
+
+.doenca-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    height: auto;
+    font-weight: bold;
+}
+
+.doenca-wrapper p{
+    background-color: var(--color-primary);
+    padding:2% 8%;
+    margin-top: 2%;
+    border-radius: 12px;
+    font-size: var(--letter-normal);
+}
+
+.doenca-wrapper p:hover{
+    background-color: #05af98;
+}
+
+.history-illness{
+    margin-top: 6%;
+    font-weight: bold;
+    font-size: var(--letter-normal);
+    font-family: var(--font-family);
+}
+
+.text-area{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: #e2e2e2;
+    border: 1px solid #e2e2e2;
+    height: 150px;
+    width: 98%;
+    color: var(--bgc-form-text);
+}
+
+.button-save{
+    display: inline-block;
+    background-color: var(--button-color-primary);
+    border: 1px solid var(--button-color-primary);
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: var(--letter-big);
+    margin-bottom: 3%;
+    transition: ease-in 0.1s;
+}
+
+.button-save:hover{
+    width: 99%;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    font-size: var(--letter-normal);
+    background-color: #c91e73;
+}

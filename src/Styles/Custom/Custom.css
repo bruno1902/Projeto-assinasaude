@@ -1,0 +1,20 @@
+:root {
+
+    --letter-small: 10px;
+    --letter-normal: 15px;
+    --letter-big: 18px;
+    --letter-ebig:20px;
+    --letter-ebig-desktop:24px;
+    --font-family: Arial, Helvetica, sans-serif;
+
+    --bgc-bgc: #ffffff;
+    --bgc-main: #e2e2e2;
+
+    --button-color-primary: #c50063;
+
+    --color-primary: #9ad8d0;
+    --color-secundary: #006154;
+
+    --bgc-form: #e2e2e2;
+    --bgc-form-text: #969696;
+}

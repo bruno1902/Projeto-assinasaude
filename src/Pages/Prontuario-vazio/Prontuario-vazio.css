@@ -1,0 +1,60 @@
+/* ----- MOBILE  -----   */
+@media(min-width: 360px) and (max-width: 1023px){
+
+    div >.prontuario-vazio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 50%;
+        margin-right: 50%;
+        transform: translateX(-50%);
+        padding-top: 4%;
+        width: 80%;
+        height: auto;
+        background-color: var(--bgc-main);
+        font-family: var(--font-family);
+        font-size: 1rem;
+    }
+
+    div >.prontuario-vazio-botao{
+       background-color: var(--button-color-primary);
+       text-decoration: none;
+       color: white;
+       padding: 14px 50px;
+       border-radius: 8px;
+       margin-top: 4%;
+       margin-bottom: 400px;
+    }
+}
+
+/* ----- DESKTOP -----   */
+@media(max-width: 1920px) and (min-width: 1024px) {
+
+    div >.prontuario-vazio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 50%;
+        margin-right: 50%;
+        transform: translateX(-50%);
+        padding-top: 4%;
+        width: 90%;
+        height: 95%;
+        background-color: var(--bgc-main);
+        font-family: var(--font-family);
+        font-size: 2rem;
+    }
+
+    div >.prontuario-vazio-botao{
+        background-color: var(--button-color-primary);
+        text-decoration: none;
+        color: white;
+        padding: 10px 200px;
+        border-radius: 8px;
+        margin-top: 6%;
+        margin-bottom: 400px;
+        margin-left: 50%;
+        margin-right: 50%;
+        text-align: center;
+    }
+}
